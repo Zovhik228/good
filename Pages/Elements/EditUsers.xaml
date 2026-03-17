@@ -4,8 +4,8 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:UP02.Pages.Elements"
-      mc:Ignorable="d" d:DesignWidth="800"
-      Title="EditUsers" Height="546">
+        d:DesignHeight="450" d:DesignWidth="800"
+   Title="EditUsers" Background="#FFEAEBEC">
 
     <Page.Resources>
         <Style x:Key="RoundedButtonStyle" TargetType="Button">

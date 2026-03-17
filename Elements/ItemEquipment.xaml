@@ -4,8 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:UP02.Elements"
-             mc:Ignorable="d" 
-             d:DesignHeight="450" Width="868">
+             mc:Ignorable="d">
     <UserControl.Resources>
         <!-- Стиль для кнопок с закругленными углами -->
         <Style x:Key="RoundedButtonStyle" TargetType="Button">
@@ -21,8 +20,8 @@
         </Style>
     </UserControl.Resources>
 
-    <Border Background="#FFEAEBEC" Margin="10" Padding="10" >
-        <StackPanel Margin="-35,0,0,0">
+    <Border Background="#FFEAEBEC" Margin="10,10,10,10" Padding="10" >
+        <StackPanel Margin="-35,0,0,150">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="0.3*"/>
